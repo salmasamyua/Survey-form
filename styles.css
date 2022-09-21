@@ -46,6 +46,10 @@ h1, p{
 #description{
   font-style: italic;
 }
+p{
+  font-weight: 200;
+  font-size: 1.125rem;
+}
 #survey-form{
   background-color: rgba(27, 27, 50, 0.8);
   padding: 2.5rem 2.625rem;
@@ -68,6 +72,10 @@ label{
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+input, button, select, textarea {
+font-family: inherit;
+font-size: inherit;
 }
 .form-control, select{
   margin: 0 auto 1.25rem auto;
